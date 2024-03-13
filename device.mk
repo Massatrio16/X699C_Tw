@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 30
+PRODUCT_TARGET_VNDK_VERSION := 29
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Health HAL
 PRODUCT_PACKAGES += \
@@ -34,8 +34,8 @@ PRODUCT_PACKAGES += \
 
 # Boot Control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.2-impl.recovery \
-    android.hardware.boot@1.2-impl
+    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.boot@1.0-impl
 
 
 PRODUCT_PACKAGES += \
