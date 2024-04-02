@@ -16,7 +16,7 @@
 
 #pragma once
 
-#include <android/hardware/boot/1.1/IBootControl.h>
+#include <android/hardware/boot/1.2/IBootControl.h>
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
 #include <libboot_control/libboot_control.h>
